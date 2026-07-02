@@ -1,0 +1,21 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Vector DB / processed data (regenerable, often large)
+data/processed/
+!data/processed/.gitkeep
+
+# Keep raw docs out of git by default; remove this line if you want to track them
+data/raw/*
+!data/raw/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Test cache
+.pytest_cache/
